@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apex Primary School learning and teaching platform for pupils, teachers and parents.">
+
+    <title>Apex Primary School | Learn, Explore & Grow</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body data-page="home">
+
+    <!-- Loading Effect Element -->
+    <div class="loader" id="pageLoader" aria-label="Loading Apex Primary School">
+        <div class="loader-card">
+            <div class="loader-logo">
+                A<span>+</span>
+            </div>
+
+            <div class="loader-spinner"></div>
+
+            <p>Preparing your learning space...</p>
+        </div>
+    </div>
+
+    <!-- Header Content -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html" aria-label="Apex Primary School home">
+                <span class="brand-mark" aria-hidden="true">
+                    A<span>+</span>
+                </span>
+
+                <span class="brand-text">
+                    <strong>Apex</strong>
+                    <small>Primary School</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false"
+                aria-controls="mainNav" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="classes.html">Classes</a>
+                <a class="nav-link" href="resources.html">Resources</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-cta" href="classes.html">Start Learning →</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content for Home Page -->
+    <main>
+
+        <!-- Landing Page Section -->
+        <section class="hero section">
+            <div class="container hero-grid">
+
+                <div class="hero-copy reveal">
+                    <span class="eyebrow">Learn • Explore • Grow</span>
+
+                    <h1>
+                        Big dreams start with <span>bright minds.</span>
+                    </h1>
+
+                    <p>
+                        A playful digital learning space where young learners discover new ideas,
+                        practise skills and enjoy every step of their education.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="classes.html">
+                            Explore Classes
+                        </a>
+
+                        <a class="btn btn-secondary" href="resources.html">
+                            Browse Resources
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <span>✓ Child-friendly</span>
+                        <span>✓ Teacher-supported</span>
+                        <span>✓ Learn at your pace</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-strip">
+            <div class="container stats-grid">
+
+                <div>
+                    <strong>4+</strong>
+                    <span>Core Subjects</span>
+                </div>
+
+                <div>
+                    <strong>20+</strong>
+                    <span>Learning Topics</span>
+                </div>
+
+                <div>
+                    <strong>50+</strong>
+                    <span>Practice Activities</span>
+                </div>
+
+                <div>
+                    <strong>5</strong>
+                    <span>Happy Learning Community</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Explore Section -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-heading centered">
+                    <span class="eyebrow">What you can do</span>
+
+                    <h2>Your learning journey starts here.</h2>
+
+                    <p>
+                        Everything is organised into simple spaces so pupils, teachers and parents
+                        can find what they need quickly.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card blue-card reveal">
+                        <h3>Explore Classes</h3>
+
+                        <p>
+                            Find age-appropriate lessons, class topics and activities designed
+                            for curious young minds.
+                        </p>
+
+                        <a href="classes.html">View classes →</a>
+                    </article>
+
+                    <article class="feature-card yellow-card reveal">
+                        <h3>Practise & Play</h3>
+
+                        <p>
+                            Use quizzes and flashcards to revise important concepts in a fun
+                            and interactive way.
+                        </p>
+
+                        <a href="student-resources.html">Try a quiz →</a>
+                    </article>
+
+                    <article class="feature-card pink-card reveal">
+                        <h3>Learning Resources</h3>
+
+                        <p>
+                            Discover reading materials, worksheets, lesson ideas and helpful
+                            study resources anytime.
+                        </p>
+
+                        <a href="student-resources.html">Browse resources →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Announcements Section -->
+        <section class="section soft-section">
+            <div class="container home-learning-grid">
+
+                <article class="announcement-panel reveal">
+                    <div class="section-heading">
+                        <span class="eyebrow">School board</span>
+                        <h2>What's happening?</h2>
+                    </div>
+
+                    <div class="announcement-list" id="announcementList">
+
+                        <article class="announcement">
+                            <span class="announcement-date">MON</span>
+
+                            <div>
+                                <strong>Reading Challenge Week</strong>
+
+                                <p>
+                                    Read for 15 minutes every day and share your favourite story.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="announcement">
+                            <span class="announcement-date green">SCI</span>
+
+                            <div>
+                                <strong>Science Discovery</strong>
+
+                                <p>
+                                    Explore plants, animals and the world around you with a
+                                    simple home activity.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="announcement">
+                            <span class="announcement-date orange">ART</span>
+
+                            <div>
+                                <strong>Creative Corner</strong>
+
+                                <p>
+                                    Bring your imagination to life with this week's drawing
+                                    challenge.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </article>
+
+                <aside class="tip-panel reveal">
+                    <span class="eyebrow">Today's learning tip</span>
+
+                    <h2>Small steps make big progress.</h2>
+
+                    <p>
+                        Study one idea at a time. Explain it in your own words, practise it,
+                        then take a short break.
+                    </p>
+
+                    <button class="btn btn-dark" id="newTipBtn">
+                        Give me another tip
+                    </button>
+
+                    <p class="tip-result" id="tipResult" aria-live="polite"></p>
+                </aside>
+
+            </div>
+        </section>
+
+        <!-- Quick Challenge Section -->
+        <section class="section">
+            <div class="container quiz-preview">
+
+                <div class="quiz-copy">
+                    <span class="eyebrow">Quick challenge</span>
+
+                    <h2>Can you solve today's question?</h2>
+
+                    <p>
+                        Take a quick five-question challenge and see how many stars you can earn.
+                    </p>
+
+                    <a class="btn btn-primary" href="student-resources.html">
+                        Start the quiz
+                    </a>
+                </div>
+
+                <div class="mini-question">
+                    <span>Question of the day</span>
+
+                    <strong>What is 7 × 8?</strong>
+
+                    <div class="mini-options">
+                        <span>48</span>
+                        <span class="correct">56</span>
+                        <span>64</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+
+            <div>
+                <a class="brand footer-brand" href="index.html">
+                    <span class="brand-mark">
+                        A<span>+</span>
+                    </span>
+
+                    <span class="brand-text">
+                        <strong>Apex</strong>
+                        <small>Primary School</small>
+                    </span>
+                </a>
+
+                <p>
+                    Helping young minds learn with confidence, curiosity and joy.
+                </p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+
+                <a href="classes.html">Classes</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Subjects</h3>
+
+                <a href="student-resources.html">Mathematics</a>
+                <a href="student-resources.html">Science</a>
+                <a href="student-resources.html">English</a>
+            </div>
+
+            <div>
+                <h3>School Hours</h3>
+
+                <p>
+                    Mon – Fri<br>
+                    7:30 AM – 3:30 PM
+                </p>
+
+                <p>Malawi</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <span>
+                    © <span id="year"></span> Apex Primary School.
+                </span>
+
+                <span>Developed by Group 5</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

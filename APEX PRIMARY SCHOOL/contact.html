@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Apex Primary School.">
+    <title>Contact | Apex Primary School</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body data-page="contact">
+    <div class="loader" id="pageLoader" aria-label="Loading Apex Primary School">
+        <div class="loader-card">
+            <div class="loader-logo">A<span>+</span></div>
+            <div class="loader-spinner"></div>
+            <p>Preparing your learning space...</p>
+        </div>
+    </div>
+
+    <!-- Header contect -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">A<span>+</span></span>
+                <span class="brand-text">
+                    <strong>Apex</strong>
+                    <small>Primary School</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="classes.html">Classes</a>
+                <a class="nav-link" href="resources.html">Resources</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="nav-cta" href="classes.html">Start Learning →</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-content">
+                <span class="eyebrow">We'd love to hear from you</span>
+                <h1>Let's stay connected.</h1>
+                <p>Have a question about classes, resources or the school? Send us a message.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <aside class="contact-info">
+                    <span class="eyebrow">Get in touch</span>
+                    <h2>We're here to help.</h2>
+                    <p>Reach out to the school office during school hours. For general questions, use the form and we'll get back
+                        to you.</p>
+
+                    <div class="contact-item">
+                        <span>
+                            <img src="location-icon.png" alt="" width="20">
+                        </span>
+                        <div>
+                            <strong>School Office</strong>
+                            <p>Apex Primary School<br>Malawi</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>
+                            <img src="phone-icon.png" alt="" width="20">
+                        </span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+265 000 000 000</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>
+                            <img src="email-icon.png" alt="" width="20">
+                        </span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>hello@apexprimary.example</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>
+                            <img src="clock-icon.png" alt="" width="20">
+                        </span>
+                        <div>
+                            <strong>Office Hours</strong>
+                            <p>Monday – Friday<br>7:30 AM – 3:30 PM</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <section class="form-card" aria-labelledby="contactHeading">
+                    <span class="eyebrow">Send a message</span>
+                    <h2 id="contactHeading">How can we help?</h2>
+
+                    <form id="contactForm" novalidate>
+                        <div class="form-grid">
+                            <label>
+                                Full name
+                                <input type="text" id="name" name="name" autocomplete="name" required>
+                            </label>
+
+                            <label>
+                                Email address
+                                <input type="email" id="email" name="email" autocomplete="email" required>
+                            </label>
+                        </div>
+
+                        <label>I'm a...
+                            <select id="role" name="role" required>
+                                <option value="">Select one</option>
+                                <option>Pupil</option>
+                                <option>Parent / Guardian</option>
+                                <option>Teacher</option>
+                                <option>Visitor</option>
+                            </select>
+                        </label>
+
+                        <label>Message
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </label>
+
+                        <button class="btn btn-primary" type="submit">Send message →</button>
+                        <p class="form-status" id="formStatus" aria-live="polite"></p>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+        <section class="section soft-section">
+            <div class="container">
+                <div class="section-heading centered">
+                    <span class="eyebrow">Frequently asked</span>
+                    <h2>Quick answers.</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details>
+                        <summary>Who can use the learning platform?</summary>
+                        <p>The platform is designed for primary pupils, teachers and parents who want a simple digital learning
+                            space.</p>
+                    </details>
+
+                    <details>
+                        <summary>Can pupils use the resources at home?</summary>
+                        <p>Yes. The learning resources and interactive activities are designed to support revision and practice
+                            outside the classroom.</p>
+                    </details>
+
+                    <details>
+                        <summary>Are the contact details real?</summary>
+                        <p>Yes. All the contact details are real.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="index.html">
+                    <span class="brand-mark">A<span>+</span></span>
+                    <span class="brand-text">
+                        <strong>Apex</strong>
+                        <small>Primary School</small>
+                    </span>
+                </a>
+                <p>Helping young minds learn with confidence, curiosity and joy.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="classes.html">Classes</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Subjects</h3>
+                <a href="student-resources.html">Mathematics</a>
+                <a href="student-resources.html">Science</a>
+                <a href="student-resources.html">English</a>
+            </div>
+
+            <div>
+                <h3>School Hours</h3>
+                <p>Mon – Fri<br>7:30 AM – 3:30 PM</p>
+                <p>Malawi</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <span>© <span id="year"></span> Apex Primary School.</span>
+                <span>Developed by Group 5</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
